@@ -7,7 +7,7 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(ROOT))
 
-from app import create_app, db  # noqa: E402
+from run import create_app, db  # noqa: E402
 
 
 @pytest.fixture()

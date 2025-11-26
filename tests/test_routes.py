@@ -1,5 +1,5 @@
-from app import db
-from models import Post, User
+from run import db
+from app.models import Post, User
 
 
 def test_create_user_route(client, app):

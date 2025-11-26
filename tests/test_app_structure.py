@@ -1,6 +1,6 @@
 import importlib
 
-from app import create_app, db
+from run import create_app, db
 
 
 def test_create_app_config_overrides():

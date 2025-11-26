@@ -1,7 +1,7 @@
 import pytest
 
-from app import db
-from models import Post, User
+from run import db
+from app.models import Post, User
 
 
 def test_user_has_required_columns(app):
